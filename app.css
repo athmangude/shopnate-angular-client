@@ -22,3 +22,14 @@ ng-md-icon > svg {
 	-o-transition: width 750ms ease-in-out, height 750ms ease-in-out;
 	transition: width 750ms ease-in-out, height 750ms ease-in-out;
 }
+
+/* Tab styles */
+.tabsdemoDynamicHeight md-content {
+  background-color: transparent !important; }
+  .tabsdemoDynamicHeight md-content md-tabs {
+    background: #f6f6f6;
+    border: 1px solid #e1e1e1; }
+    .tabsdemoDynamicHeight md-content md-tabs md-tabs-canvas {
+      background: white; }
+  .tabsdemoDynamicHeight md-content h1:first-child {
+    margin-top: 0; }
